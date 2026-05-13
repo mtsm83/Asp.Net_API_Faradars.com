@@ -1,0 +1,13 @@
+﻿Learn: 
+Cross Cutting Concerns: 
+    Centralized Exception Handling
+    Structured Logging (Serilog)
+    Correlation ID
+    Request/Response Logging
+    Performance Profiling Middleware
+    
+Refresh Token: 
+    Scenario and Implementation
+    
+Redis: 
+    Redis and No-sql Databases 

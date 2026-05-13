@@ -1,0 +1,9 @@
+﻿namespace Faradars.Domain.Enums;
+
+public enum CourseLevel
+{
+    Beginner = 0,
+    Intermediate = 1,
+    Advanced = 2,
+    AllLevels = 3
+}

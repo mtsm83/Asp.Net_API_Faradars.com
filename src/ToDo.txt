@@ -1,0 +1,43 @@
+﻿LinkedIn content creation : 
+
+1. Designing a Scalable Video Access System: 
+    چالش:
+    چطور دسترسی به ویدیوها رو امن و قابل مقیاس کنی؟
+    ایده‌ها:
+    Signed URLs
+    Expiring tokens
+    Separate Video Service
+    CDN Strategy
+    Preventing URL sharing
+    
+2. Handling Flash Sale (High Traffic Scenario): 
+    سناریو:
+    تخفیف ۷۰٪ برای ۳۰ دقیقه.
+    سوال:
+    اگر 20,000 request همزمان بیاد چی؟
+    سیستم‌دیزاین ایده‌ها:
+    Rate limiting
+    Queue-based processing
+    Read replica
+    Caching course data
+    Optimistic concurrency
+    پست:
+    Can your ASP.NET API survive a flash sale? Here’s what I changed.
+    این خیلی وایرال‌پسنده.
+    
+3. The hidden complexity behind a simple course rating system:
+    Prevent duplicate reviews
+    Weighted rating calculation
+    Aggregate caching
+    Event-driven update
+    Moderation queue
+    
+4. Tracking Learning Progress at Scale: 
+    Batch progress updates
+    Redis temporary store
+    Periodic background persistence
+    Event streaming
+    پست:
+    Designing a scalable learning progress tracker
+    
+5. Refresh Token 

@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>13</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="DTOs\Courses\Category\" />
+      <Folder Include="DTOs\Courses\Content\" />
+      <Folder Include="DTOs\Courses\Media\" />
+      <Folder Include="DTOs\Payments\Cart\" />
+      <Folder Include="DTOs\Payments\Invoice\" />
+      <Folder Include="DTOs\Payments\Order\" />
+      <Folder Include="DTOs\Students\Enrollment\" />
+      <Folder Include="DTOs\Students\Monitoring\" />
+      <Folder Include="Mappers\Management\Article\" />
+      <Folder Include="Mappers\Payments\Invoice\" />
+      <Folder Include="Mappers\Payments\Order\" />
+      <Folder Include="Mappers\Payments\Transaction\" />
+      <Folder Include="Mappers\Students\Monitoring\" />
+      <Folder Include="Mappers\Validation\" />
+      <Folder Include="ValidationRules\Management\" />
+      <Folder Include="ValidationRules\Payments\" />
+      <Folder Include="ValidationRules\Students\" />
+      <Folder Include="ValidationRules\Users\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Faradars.Domain\Faradars.Domain.csproj" />
+      <ProjectReference Include="..\Faradars.Shared\Faradars.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+      <PackageReference Include="FluentValidation" Version="12.0.0" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="2.3.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.7" />
+    </ItemGroup>
+
+</Project>
