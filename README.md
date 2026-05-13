@@ -80,4 +80,4 @@ Before running the project, make sure you have installed:
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/course-platform-api.git
+git clone https://github.com/mtsm83/Asp.Net_API_Faradars.com.git
